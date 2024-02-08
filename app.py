@@ -80,5 +80,5 @@ def recommend():
     return jsonify({"books": recommended_books, "posters": poster_url})
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
